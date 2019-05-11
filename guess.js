@@ -11,7 +11,9 @@ console.log('working');
 
       function resetthegame(){
         var input = document.querySelector('#guessField');
-        input.value = null;
+        input.value = "";
+        var price = Math.floor(Math.random() * 100) + 1;
+        console.log(price);
       }
 
       function dosomething(){
